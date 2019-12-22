@@ -1,0 +1,10 @@
+language: node_js
+
+deploy:
+  provider: npm
+  email: $EMAIL
+  api_key:
+    secure: $API_KEY
+  on:
+    tags: true
+    repo: gok-dev/react-native-template-gok-basic
