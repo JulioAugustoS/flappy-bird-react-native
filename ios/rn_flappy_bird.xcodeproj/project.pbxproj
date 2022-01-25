@@ -5,10 +5,10 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* rn_flappy_birdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rn_flappy_birdTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		254386EB8C4E08F07E7503EA /* libPods-rn_flappy_bird-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6090A4157C3A8ABB18142F5 /* libPods-rn_flappy_bird-tvOS.a */; };
@@ -17,9 +17,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* rn_flappy_birdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rn_flappy_birdTests.m */; };
+		6B9A339927A09D7500220DFD /* LauchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9A339827A09D7500220DFD /* LauchScreen.storyboard */; };
+		820F7C6154A540B49B5CFEF4 /* FB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5A5270E3852481681105BB2 /* FB.ttf */; };
 		C1D89584C9CBD6AA1D685360 /* libPods-rn_flappy_bird.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8C84B1135F110CBE696FA /* libPods-rn_flappy_bird.a */; };
 		C8C37E13ECA9DC7404450CFB /* libPods-rn_flappy_bird-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 617EB81568ED59A117B8ACD1 /* libPods-rn_flappy_bird-tvOSTests.a */; };
-		820F7C6154A540B49B5CFEF4 /* FB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5A5270E3852481681105BB2 /* FB.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,6 @@
 		13B07F961A680F5B00A75B9A /* rn_flappy_bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rn_flappy_bird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rn_flappy_bird/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rn_flappy_bird/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rn_flappy_bird/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rn_flappy_bird/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rn_flappy_bird/main.m; sourceTree = "<group>"; };
@@ -56,8 +56,10 @@
 		2D02E4901E0B4A5D006451C7 /* rn_flappy_bird-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rn_flappy_bird-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		617EB81568ED59A117B8ACD1 /* libPods-rn_flappy_bird-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn_flappy_bird-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F8C84B1135F110CBE696FA /* libPods-rn_flappy_bird.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn_flappy_bird.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9A339827A09D7500220DFD /* LauchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LauchScreen.storyboard; path = rn_flappy_bird/LauchScreen.storyboard; sourceTree = "<group>"; };
 		83BEB08936F9DE0A223BF8C3 /* Pods-rn_flappy_bird-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_flappy_bird-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rn_flappy_bird-tvOS/Pods-rn_flappy_bird-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		A23BDCD9B863737FB56F0E2B /* libPods-rn_flappy_birdTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn_flappy_birdTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A5270E3852481681105BB2 /* FB.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FB.ttf; path = ../src/assets/fonts/FB.ttf; sourceTree = "<group>"; };
 		BC57B59D1CA511C67EDD68D4 /* Pods-rn_flappy_bird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_flappy_bird.debug.xcconfig"; path = "Target Support Files/Pods-rn_flappy_bird/Pods-rn_flappy_bird.debug.xcconfig"; sourceTree = "<group>"; };
 		C424FBDDB65C9EB8512F1598 /* Pods-rn_flappy_birdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_flappy_birdTests.release.xcconfig"; path = "Target Support Files/Pods-rn_flappy_birdTests/Pods-rn_flappy_birdTests.release.xcconfig"; sourceTree = "<group>"; };
 		C47ADADA4A3BFF84DE667731 /* Pods-rn_flappy_bird-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_flappy_bird-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rn_flappy_bird-tvOSTests/Pods-rn_flappy_bird-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +69,6 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F62C6087CB837E171F0ED72F /* Pods-rn_flappy_bird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_flappy_bird.release.xcconfig"; path = "Target Support Files/Pods-rn_flappy_bird/Pods-rn_flappy_bird.release.xcconfig"; sourceTree = "<group>"; };
-		B5A5270E3852481681105BB2 /* FB.ttf */ = {isa = PBXFileReference; name = "FB.ttf"; path = "../src/assets/fonts/FB.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,12 +127,12 @@
 		13B07FAE1A68108700A75B9A /* rn_flappy_bird */ = {
 			isa = PBXGroup;
 			children = (
+				6B9A339827A09D7500220DFD /* LauchScreen.storyboard */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = rn_flappy_bird;
@@ -150,6 +151,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55503E8FF3B04A9B99EDA2FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5270E3852481681105BB2 /* FB.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		56B6741EC98046E6244ADC95 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +171,6 @@
 				C622D40DF4FC73B4631A9206 /* Pods-rn_flappy_birdTests.debug.xcconfig */,
 				C424FBDDB65C9EB8512F1598 /* Pods-rn_flappy_birdTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -200,15 +208,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55503E8FF3B04A9B99EDA2FD /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				B5A5270E3852481681105BB2 /* FB.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,6 +240,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				4601B1375AFA09FF28A4CC73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +319,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -347,8 +348,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9A339927A09D7500220DFD /* LauchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				820F7C6154A540B49B5CFEF4 /* FB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +399,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4601B1375AFA09FF28A4CC73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rn_flappy_bird/Pods-rn_flappy_bird-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rn_flappy_bird/Pods-rn_flappy_bird-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		4A3235CA59A082D2AA144ACA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -577,18 +596,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = rn_flappy_bird;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -641,7 +648,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = rn_flappy_bird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -660,7 +669,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = rn_flappy_bird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -813,6 +824,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -866,6 +878,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
